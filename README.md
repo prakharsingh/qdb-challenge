@@ -2,7 +2,7 @@
 
 [![codecov](https://codecov.io/gh/prakharsingh/qdb-challenge/branch/master/graph/badge.svg)](https://codecov.io/gh/prakharsingh/qdb-challenge)
 
-##Pre-requisites
+## Pre-requisites
 
 - create a .env file with below content
 

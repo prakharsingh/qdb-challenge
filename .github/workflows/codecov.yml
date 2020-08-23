@@ -20,11 +20,5 @@ jobs:
         with:
           node-version: ${{ matrix.node-version }}
       - run: yarn --frozen-lockfile
-      - name: Make envfile
-        uses: SpicyPizza/create-envfile@v1
-        env:
-          API_URL: 'https://jsonplaceholder.typicode.com'
-        with:
-          REACT_APP_BASE_URL: ${{env.API_URL}}
       - run: yarn test:coverage
-#      - uses: codecov/codecov-action@v1
+      - uses: codecov/codecov-action@v1
