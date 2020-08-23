@@ -1,3 +1,5 @@
+# QDB UI Challenge
+
 [![codecov](https://codecov.io/gh/prakharsingh/qdb-challenge/branch/master/graph/badge.svg)](https://codecov.io/gh/prakharsingh/qdb-challenge)
 
 ##Pre-requisites
